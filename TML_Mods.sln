@@ -1,0 +1,21 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TML_Console", "Console\TML_Console.csproj", "{9B5C1C87-572C-4AD6-968C-31809F7C924E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FullOrder", "FullOrder\TML_FullOrder.csproj", "{107B81DF-A92B-46E1-9401-64C8DE245981}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TML_RecipesEx", "RecipesEx\TML_RecipesEx.csproj", "{731D3CCD-DAC5-41FA-9C42-787329999078}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Release|x64 = Release|x64
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{9B5C1C87-572C-4AD6-968C-31809F7C924E}.Release|x64.ActiveCfg = Release|x64
+		{9B5C1C87-572C-4AD6-968C-31809F7C924E}.Release|x64.Build.0 = Release|x64
+		{107B81DF-A92B-46E1-9401-64C8DE245981}.Release|x64.ActiveCfg = Release|x64
+		{107B81DF-A92B-46E1-9401-64C8DE245981}.Release|x64.Build.0 = Release|x64
+		{731D3CCD-DAC5-41FA-9C42-787329999078}.Release|x64.ActiveCfg = Release|Any CPU
+		{731D3CCD-DAC5-41FA-9C42-787329999078}.Release|x64.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal

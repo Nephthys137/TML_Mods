@@ -1,0 +1,1 @@
+Touhou Mystia Izakaya BepInEx mods: Console, FullOrder, CustomRecipe

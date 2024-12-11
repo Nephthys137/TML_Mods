@@ -1,0 +1,59 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <OutputType>Library</OutputType>
+        <AppendTargetFrameworkToOutputPath>false</AppendTargetFrameworkToOutputPath>
+        <GenerateAssemblyInfo>false</GenerateAssemblyInfo>
+        <LangVersion>latest</LangVersion>
+        <TargetFramework>net6</TargetFramework>
+        <OutputPath>..\Release\</OutputPath>
+        <NoWarn>CA2211;CA1822;IDE0060;IDE0130</NoWarn>
+        <DebugType>none</DebugType>
+        <Optimize>True</Optimize>
+        <Configurations>Release</Configurations>
+        <Platforms>x64</Platforms>
+    </PropertyGroup>
+
+    <ItemGroup>
+        <Reference Include="0Harmony">
+            <HintPath>D:\Program Files (x86)\Steam\steamapps\common\Touhou Mystia Izakaya\BepInEx\core\0Harmony.dll</HintPath>
+        </Reference>
+        <Reference Include="Assembly-CSharp">
+            <HintPath>D:\Program Files (x86)\Steam\steamapps\common\Touhou Mystia Izakaya\BepInEx\interop\Assembly-CSharp.dll</HintPath>
+        </Reference>
+        <Reference Include="Assembly-CSharp-firstpass">
+            <HintPath>D:\Program Files (x86)\Steam\steamapps\common\Touhou Mystia Izakaya\BepInEx\interop\Assembly-CSharp-firstpass.dll</HintPath>
+        </Reference>
+        <Reference Include="BepInEx.Core">
+            <HintPath>D:\Program Files (x86)\Steam\steamapps\common\Touhou Mystia Izakaya\BepInEx\core\BepInEx.Core.dll</HintPath>
+        </Reference>
+        <Reference Include="BepInEx.Unity.IL2CPP">
+            <HintPath>D:\Program Files (x86)\Steam\steamapps\common\Touhou Mystia Izakaya\BepInEx\core\BepInEx.Unity.IL2CPP.dll</HintPath>
+        </Reference>
+        <Reference Include="DEYU.AdaptiveUISystem">
+            <HintPath>D:\Program Files (x86)\Steam\steamapps\common\Touhou Mystia Izakaya\BepInEx\interop\DEYU.AdaptiveUISystem.dll</HintPath>
+        </Reference>
+        <Reference Include="Il2CppInterop.Runtime">
+            <HintPath>D:\Program Files (x86)\Steam\steamapps\common\Touhou Mystia Izakaya\BepInEx\core\Il2CppInterop.Runtime.dll</HintPath>
+        </Reference>
+        <Reference Include="Il2Cppmscorlib">
+            <HintPath>D:\Program Files (x86)\Steam\steamapps\common\Touhou Mystia Izakaya\BepInEx\interop\Il2Cppmscorlib.dll</HintPath>
+        </Reference>
+        <Reference Include="Il2CppSystem.Core">
+            <HintPath>D:\Program Files (x86)\Steam\steamapps\common\Touhou Mystia Izakaya\BepInEx\interop\Il2CppSystem.Core.dll</HintPath>
+        </Reference>
+        <Reference Include="Omt.GamePlatformAPI">
+            <HintPath>D:\Program Files (x86)\Steam\steamapps\common\Touhou Mystia Izakaya\BepInEx\interop\Omt.GamePlatformAPI.dll</HintPath>
+        </Reference>
+        <Reference Include="Unity.TextMeshPro">
+            <HintPath>D:\Program Files (x86)\Steam\steamapps\common\Touhou Mystia Izakaya\BepInEx\interop\Unity.TextMeshPro.dll</HintPath>
+        </Reference>
+        <Reference Include="UnityEngine.CoreModule">
+            <HintPath>D:\Program Files (x86)\Steam\steamapps\common\Touhou Mystia Izakaya\BepInEx\interop\UnityEngine.CoreModule.dll</HintPath>
+        </Reference>
+        <Reference Include="UnityEngine.UI">
+            <HintPath>D:\Program Files (x86)\Steam\steamapps\common\Touhou Mystia Izakaya\BepInEx\interop\UnityEngine.UI.dll</HintPath>
+        </Reference>
+    </ItemGroup>
+
+</Project>
